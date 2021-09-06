@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# App Cotizador de Criptomonedas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## *React - La Guía Completa: Hooks Context Redux MERN + 15 Apps*
 
-## Available Scripts
+Aplicación que permite buscar la cotización de criptomenedas para una moneda tradicional dada.
 
-In the project directory, you can run:
+**Fetch API**.
+**Styled Components**.
+**Custom Hooks**.
 
-### `npm start`
+### Librerías utilizadas:
+- [**@Emotion**](https://emotion.sh/docs/introduction): para crear los Styled Components.
+- [**Axios**](https://www.npmjs.com/package/axios): para construir las consultas a las APIs.
+- [**SpinKit**](https://tobiasahlin.com/spinkit/): Spinners simples en CSS.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### APIs utilizadas:
+- [**CryptoCompare**](https://min-api.cryptocompare.com/documentation): API de criptomonedas.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+    - [**URL Endpoint: Toplist by Market Cap Full Data**](https://min-api.cryptocompare.com/data/top/mktcapfull?limit=10&tsym=USD): _Get a number of top coins by their market cap. Default value is first page (0) and the top 10 coins_.
+    - [**URL Endpoint: Multiple Symbols Full Data**](https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC&tsyms=USD,EUR): _Get all the current trading info (price, vol, open, high, low etc) of any list of cryptocurrencies in any other currency that you need_.
 
-### `npm test`
+### Versión: 1.0.0
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Notas:
+Comando para ejecutar la aplicación:
+```
+npm start
+```
